@@ -10,4 +10,4 @@ for x in range(1000):
 print(sum)
 
 # This wasn't much of a challenge for python thanks to the modulo operator
-# Result: 233168
+# I'm iterating through all numbers between 0 and 1000 to look for numbers that are multiples of 3 OR 5 and adding them to a sum, easy peasy.
