@@ -12,3 +12,9 @@ while fnum[1] < 4000000:
     #print(fnum, sum)
 
 print(sum)
+
+#Again, not much of a challenge, this can pretty easily be brute-forced. I made a list with the starting elements of the Fibonacci sequence (1 and 2 in this case),
+#since I skip number 2 on the first iteration so I already write the 'sum' variable equal to 2, and I iterate through the Fibonacci sequence until it approaches 4 million, checking
+#the divisibility by 2 after each increase.
+#I do those weird list position switches so I dont have to keep more than two numbers in memory, since I dont need to know more than two numbers to know the next step
+#in the sequence. Saves the hassle of storing and sorting dozens of numbers.
