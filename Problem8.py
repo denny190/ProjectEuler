@@ -40,8 +40,10 @@ for i in range(0,13):
     nlist.pop(0)
 
 saved = 0
+product = 0
 while len(nlist) > 1:
-    product = multiplication(numbers)
+    if 0 not in numbers:
+        product = multiplication(numbers)
 
     if product > saved:
         saved = product
