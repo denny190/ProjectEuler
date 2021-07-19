@@ -18,7 +18,7 @@ def eratosthen(x):
 
 print(eratosthen(2000000))
 
-#I recycled my erastothen sieve algorithm from Problem 7 and made minor changes so it returns a sum of primes below the max number.
+#I recycled the erastothen sieve algorithm I used for Problem 7 and made minor changes so it returns a sum of primes below the max number.
 #Probably not the most efficient solution, but still pretty fast thanks to the power of modern computers. 
 
 #t = 0.3870868682861328 seconds
