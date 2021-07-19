@@ -57,3 +57,5 @@ print(saved)
 #Maybe a tad longer than it needs to be, but I feel it nicely shows how to go about it. I save the 1000-digit number as a string
 #and then I convert each "letter" to a single element in a list. Afterwards I initialize my sequence of 13 numbers, always removing the first number 
 #and adding another from the nlist. Later I added a line to exclude multiplications when there is a 0 in the list. 
+
+# t = 0.0010006427764892578 seconds
