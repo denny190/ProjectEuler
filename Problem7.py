@@ -20,3 +20,5 @@ eratosthen(10000000)
 
 #Maybe a little brute-forced again, but classic erastothen sieve algorithm of an arbitrarily large number paired with an if condition that stops the sieve
 #upon reaching the desired prime. In thise case 10001st prime. 
+
+# t = 1.9714431762695312 seconds
