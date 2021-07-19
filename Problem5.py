@@ -18,3 +18,5 @@ print(n)
 #The algorithm itself is, again, kinda brute-force. I use a dead simple while cycle to iterate through multiples of 2520
 #(another way to speed it up is to iterate by adding 20 or 2520 instead of adding 1)
 #Once all modulos of n%x, where x are elements in nlist, equal 0 we have our number and we can exit the cycle.
+
+# t = 0.04601025581359863 seconds
