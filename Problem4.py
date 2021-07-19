@@ -24,3 +24,5 @@ print(*palindrome)
 #So since I'm looking for the largest palindrome, I saved myself the time to iterate 'up' instead I chose to iterate 'down' from 1000 (999 is the first iteration then)
 #The first layer while cycle iterates through x and the second while cycle iterates through y, that way every possible y will be tested against every possible x.
 #The number is then saved as a string so I can check the commutability by simply inverting a list. Its a rather brute-force approach but it works.
+
+# t = 0.4360978603363037 seconds
