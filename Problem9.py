@@ -14,3 +14,7 @@ for a in range(1,1000):
 #Gotta say this problem was slightly less interesting than I expected it to be. It just goes down to iterating through the numbers again. 
 #I did find some time-saving shortcuts at a blog called RadiusOfCircle, generating number c with the condition c = 1000-a-b. 
 #Other than that, pretty straightforward
+
+# t = 0.7771751880645752 seconds 
+#time to solve could be drastically reduced by having the two for cycles in a function so I can exit the nested loop when it finds the first triplet via returns statement.
+#because technically there are two solutions to this since a and b commute in this instance. Thats why we get two solutions for which a1 = b2 and a2 = b1.
