@@ -16,5 +16,5 @@ for a in range(1,1000):
 #Other than that, pretty straightforward
 
 # t = 0.7771751880645752 seconds 
-#time to solve could be reduced by having the two for cycles in a function so I can exit the nested loop when it finds the first triplet via a return statement.
-#because technically there are two solutions for which a1 = b2 and a2 = b1.
+#time to solve could be drastically reduced by having the two for cycles in a function so I can exit the nested loop when it finds the first triplet via a return statement.
+#because technically there are two solutions for which a1 = b2 and a2 = b1. I was just lazy.
