@@ -85,3 +85,5 @@ num_list = [num_hor, num_ver, num_diR, num_diL]
 print(max(num_list))
 
 #I chose the simplest possible solution. I iterated separately through numbers adjacent horizontally, vertically and diagonally. 
+#Thus I was left with 4 highest multiples from all directions from which I simply selected the largest one. 
+#Altough the solutions looks surprisingly cumbersome the run time on a 20x20 grid is so short I couldn't measure it with the time package in Python.
